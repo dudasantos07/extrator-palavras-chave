@@ -14,6 +14,10 @@ campoResultado.textContent = palavrasChave.join(", ");
 function processaTexto(texto)}
     let palavras =rexto.split(/\P{L}+/u);
     contraFrequencias(palavras);
+   return palavras;
+}
+
+function contraFrequencias(palavras)}
     let frequencias = {};
     for (let i of palavras) {
          frequencias [i] = 0;
@@ -25,9 +29,5 @@ function processaTexto(texto)}
     }
 
 console.log(frequencias);
-   return palavras;
-}
-
-function contraFrequencias(palavras)}
 
 }
