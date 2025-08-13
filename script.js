@@ -37,5 +37,7 @@ function contraFrequencias(palavras){
          }
     }
 console.log(frequencias);
+}
 
+function tiraPalavrasRuins(palavras);{
 }
