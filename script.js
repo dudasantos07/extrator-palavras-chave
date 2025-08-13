@@ -3,5 +3,31 @@ const botaoMostraPalavras = document.querySelector('#botao-palavrachave');
 botaoMostraPalavras.addEventListener('click', mostraPalavrasChave);
 
 function mostraPalavrasChave() {
-    alert('fui clicado!');
+const texto = document.querySelector('#entrada-de-texto').value;
+const campoResultado = document.querySelector('#resultado-palavrachave');
+const palavrasChave = processaTexto(texto);
+
+    
+campoResultado.textContent = palavrasChave.join(", ");
+}
+
+function processaTexto(texto)}
+    let palavras =rexto.split(/\P{L}+/u);
+    contraFrequencias(palavras);
+    let frequencias = {};
+    for (let i of palavras) {
+         frequencias [i] = 0;
+         for (let j of palavras) {
+              if (i == j) {
+                frequencias [i]++;
+              }
+         }
+    }
+
+console.log(frequencias);
+   return palavras;
+}
+
+function contraFrequencias(palavras)}
+
 }
