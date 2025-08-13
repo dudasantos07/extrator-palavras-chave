@@ -15,7 +15,8 @@ function processaTexto(texto){
     let palavras = texto.split(/\P{L}+/u);
     const frequencias = contraFrequencias(palavras);
     let ordenadas = Object.keys(frequencias).sort(ordenaPalavra);
-    
+
+    fuction ordenaPalavra(p1, p2);
 }
 
 function contraFrequencias(palavras){
