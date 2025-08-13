@@ -15,7 +15,7 @@ function processaTexto(texto){
        palavras[i] = palavras[i].toLowerCase();
    }
 
-
+   palavras = tiraPalavrasRuins(palavras);
    
     const frequencias = contraFrequencias(palavras);
     let ordenadas = Object.keys(frequencias).sort(ordenaPalavra);
