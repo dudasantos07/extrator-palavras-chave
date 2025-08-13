@@ -23,7 +23,6 @@ function processaTexto(texto){
     return ordenadas.slice(0,10);
 }
     
-
 function contraFrequencias(palavras){
     let frequencias = {};
     for (let i of palavras) {
