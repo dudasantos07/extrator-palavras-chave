@@ -14,7 +14,7 @@ campoResultado.textContent = palavrasChave.join(", ");
 function processaTexto(texto){
     let palavras = texto.split(/\P{L}+/u);
     const frequencias = contraFrequencias(palavras);
-   return palavras;
+    let ordenadas = Object.keys 
 }
 
 function contraFrequencias(palavras){
