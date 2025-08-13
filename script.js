@@ -40,5 +40,5 @@ console.log(frequencias);
 }
 
 function tiraPalavrasRuins(palavras){
-
+    const palavrasBoas = [];
 }
