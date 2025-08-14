@@ -41,4 +41,6 @@ console.log(frequencias);
 
 function tiraPalavrasRuins(palavras){
     const palavrasBoas = [];
+    for (let palavras of palavras){
+       if(palavra
 }
