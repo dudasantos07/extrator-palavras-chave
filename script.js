@@ -40,7 +40,7 @@ console.log(frequencias);
 }
 
 function tiraPalavrasRuins(palavras){
-    const PALAVRAS_RUINS = new Set ["para", "uma", "nós"];
+    const PALAVRAS_RUINS = new Set (["para", "uma", "nós"]);
     const palavrasBoas = [];
     for (let palavras of palavras){
        if(!PALAVRAS_RUINS.has(palavras)&& palavra.length > 2){
