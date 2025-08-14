@@ -45,4 +45,6 @@ function tiraPalavrasRuins(palavras){
        if(palavra.length > 2){
            palavrasBoas.push(palavras);
        }
+    }
+    return palavrasBoas;
 }
